@@ -15,19 +15,18 @@
 		<link href="style.css" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<div class="container">
+		<div class="container lg-col">
 			<nav id="menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
 				<div class="navbar-header">
 					<a href="#" class="navbar-brand">Boissy l'aillerie</a>
 				</div>
 				<div class="container-fluid">
 					<ul class="nav navbar-nav">
-						<li><a href="#">Accueil</a></li>
+						<li><a href="index.php">Accueil</a></li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Informations <span class="caret"></span></a></li>
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Informations <span class="caret"></span></a></li>
 								<ul class="dropdown-menu">
 									<li><a href="#">Bulletin municipal</a></li>
 									<li><a href="#">Flash</a></li>
@@ -46,7 +45,7 @@
 								</ul>
 						</li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle">Découvrir Boissy <span class="caret"></span></a>
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Découvrir Boissy <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="#">Blason</a></li>
 									<li><a href="#">Historique</a></li>
@@ -63,7 +62,7 @@
 								</ul>
 						</li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle">Associations <span class="caret"></span></a></li>
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Associations <span class="caret"></span></a></li>
 								<ul class="dropdown-menu">
 									<li><a href="#">Arc en ciel de la viosne</a></li>
 									<li><a href="#">Club du bel automne</a></li>
@@ -79,7 +78,7 @@
 									<li><a href="#">Val Fleury</a></li>
 								</ul>	
 						<li class="dropdown">
-							<a href="#" data-toggle="dropdown" class="dropdown-toggle">Urbanisme <span class="caret"></span></a>
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Urbanisme <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="#">Enquête publique urbanisme</a>
 									<li><a href="#">PLU 10 mars 2010</a>
@@ -104,5 +103,6 @@
 			<span class="citation">extrait du discours de Mr Guiard - Maire de boissy</span>
 		</p>
 		</div>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	</body>
 </html>
